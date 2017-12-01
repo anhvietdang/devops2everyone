@@ -4,12 +4,13 @@
   "description": "basic bot to explore",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "botbuilder": "^3.11.0",
+    "botbuilder-cognitiveservices": "^1.1.0",
     "restify": "^6.3.2"
   }
 }
